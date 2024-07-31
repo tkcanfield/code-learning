@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>practice page nine</title>
+</head>
+<body>
+    <div id="menu">
+        <h5>Menu</h5>
+            <a href="C:\Users\15093\Documents\Coding\Practice_Page_Five.html">Home</a> 
+    </div>
+    <div id="Header">
+        <h1>Practice Page Nine</h1>
+    </div>
+    <div id="notes">
+        <h2>Notes</h2>
+        <h3>07/31/2024</h3>
+        <ul>
+          <li>Picking up this practice again after 5-ish months. </li>
+          <li>I have no memory of what charset="UTF-8" means.</li>
+          <li>I feel like I have enough HTML to figure out the rest of it.</li> 
+          <li>Moving on to CSS.</li> 
+        </ul>
+      </div>
+<!--BULLET POINT SHORTCUT
+            <li></li> 
+-->
+ <!-- DIV SHORTCUTS
+
+    <div id="">
+        <h2></h2>
+        <
+-->
+</body>
+</html>

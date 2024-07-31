@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Practice Page 6</title>
+</head>
+<body>
+
+<div id="header">
+  <h5>Menu</h5>
+  <a href="./Practice_Page_Two.html">Page 2</a>
+  <br/>
+  <a href="C:\Users\15093\Documents\Coding\Practice_Page_Five.html">Page 5</a>  
+  <br/>
+<!-- RETIRED CODE
+  <p>This page:</p>
+  <ul>
+    <li>
+      <a href="#notes">Notes</a>
+    </li>
+    <li>
+      <a href="#link_1">Link to Codecademy</a>
+    </li>
+    <li>
+      <a href="#table">Table</a>
+    </li>
+-->
+  </ul>
+</div>
+
+<div id="Header">
+  <h1>Practice Page Six</h1>
+</div>
+
+<div id="notes">
+  <h2>Notes</h2>
+  <h3>01/19/2024</h3>
+  <ul>
+    <li>Codecademy taught me how to link to relative pages, i.e. pages stored in the same computer file. See 
+      <a href="#header">menu.</a>
+    </li>
+    <li>Codecademy reminded me that when coding hyperlinks, I'm supposed to be including <strong>target="_blank"</strong></li>
+    <li>Oh, wait, that's for when I want a link to open in a new page. That's right.</li>
+    <li>Now I'm learning how to turn an image into a link! See 
+      <a href="#link_1">link.</a>
+    </li>
+    <li>Now I'm learning how to link to places in the same page! I'm going to have to add some white space to make this page long enough to practice...</li>
+    <li>Now it's talking about white space (written into the code. Not visible on the webpage). I am not currently using industry standards for white space.</li> 
+    <li>Industry standards would have me place each element on its own line and nest the generations with two spaces worth of indent. Because I am coding entirely by hand at the moment, and because I am quite lazy, I am choosing to start my div tags without an indent and only nest the generations they contain. To help with legibility, I am adding a line between each div tag. This is my reminder that what I am doing is not industry standard.</li>
+    <li>Now I'm learning about comments!</li>
+<!-- --> <!-- This is a comment! It shouldn't show up on the actual page: It's just secret notes for me to read. -->
+    <li>Can I make little shortcuts for myself using comments?</li>
+    <li>I sure can!</li>
+    <li>Now I'm learning about tables! See
+      <a href="#table">table.</a>
+    </li>
+    <li>Now I'm going to take out the white space I added earlier, because this page is getting to be long enough without it, and the location tags are coming in genuinely useful...</li>
+<!--BULLET POINT SHORTCUT
+    <li></li> 
+-->
+  </ul>
+</div>
+
+
+<!-- DIV SHORTCUTS
+
+<div id="">
+  <h2></h2>
+  <
+</div>
+
+-->
+
+
+<div id="link_1">
+  <h2>Link</h2>
+  <a href="https://www.codecademy.com/learn" target="_blank">
+    <img src="C:\Users\15093\Documents\Coding\Attachments\Pictures\HTML Practice.jpeg" alt="Picture? What picture? There's no picture here!" height="240" width="320" controls/>
+  </a>
+</div>
+
+<div id="table">
+  <h2>Table Manners</h2>
+  <table>
+    <thead>
+      <tr id="header">
+        <th scope="col" id="C1">Rows</th>
+        <th scope="col" id="C2">Columns</th>
+        <th scope="col" id="C3">Headings</th>
+        <th scope="col" id="C4">Borders</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr id="R1">
+        <td id="C1">The "tr" element creates rows</td>
+        <td id="C2">The "td" element creates columns</td>
+        <td id="C3">The "th" element creates headings</td>
+        <td id="C4"></td>
+      </tr>
+      <tr id="R2">
+        <td id="C1"></td>
+        <td id="C2">"Td" means "table data"</td>
+        <td id="C3"></td>
+        <td id="C4"></td>
+      </tr>
+      <tr id="R3">
+        <td id="C1"></td>
+        <td id="C2"></td>
+        <td id="C3">Best practice is to add the scope into the heading tag (row vs. column)</td>
+        <td id="C4"></td>
+      </tr>
+      <tr id="R4">
+        <td id="C1"></td>
+        <td id="C2"></td>
+        <td id="C3"></td>
+        <td id="C4">Older codes may include a "border" attribute</td>
+      </tr>
+      <tr id="R5">
+        <td id="C1"></td>
+        <td id="C2"></td>
+        <td id="C3"></td>
+        <td id="C4">Current best practice is to use CSS to create your border.</td>
+      </tr>
+      <tr id="R6">
+        <td colspan="4"> the "colspan" attribute allows you to stretch out. The "rowspan" attribute stretches you in different directions.</td>
+      </tr>
+    <foot>
+      <tr id="foot">
+        <td colspan="4">You can section off the header, body, and footer of your table. This, here, is the footer.</td>
+      </tr>
+    </foot>
+    </tbody>
+<!-- SHORTCUTS:
+
+      <tr id="R">
+        <td id="C1"></td>
+        <td id="C2"></td>
+        <td id="C3"></td>
+        <td id="C4"></td>
+      </tr>
+        <th scope="col" id="C"></th>
+
+-->
+  </table>
+</div>
+
+<div id="footer">
+  <a href="#header">Top</a>
+</div>
+
+</body>
+</html>
