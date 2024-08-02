@@ -21,19 +21,13 @@ p {
 }
 
 #menu {
-    color: bisque;
+    color: rgb(41, 32, 30);
     text-align: right; 
-    background-color: rgb(59, 55, 55);
 }
 
-
-#menu h5 {
-    color:black;
-    
-}
 
 #menu a {
-    color: bisque;
+    color: rgb(59, 55, 55)
     a:hover {
         color:black
     }
